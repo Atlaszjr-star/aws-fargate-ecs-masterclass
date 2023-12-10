@@ -67,6 +67,7 @@
     - Task Definition: nginx-app1
     - Service Name: nginx-app1-svc
     - Number of Tasks: 1
+    - **Control the cost: update service and set desired task to 0, then no task running anymore**
 - **Configure Network**
     - VPC: ecs-vpc
     - Subnets: ap-south-1a, ap-south-1b (subnets from both regions)
